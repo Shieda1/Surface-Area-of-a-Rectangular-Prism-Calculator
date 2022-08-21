@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surface Area of a Rectangular Prism Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="surfaceAreaofRectangularPrismRadio" name="variables" checked>
+  <label for="surfaceAreaofRectangularPrismRadio">Surface Area of Rectangular Prism</label>
+
+  <input type="radio" id="widthoftheRectangularPrismRadio" name="variables" disabled>
+  <label for="widthoftheRectangularPrismRadio">Width of the Rectangular Prism</label>
+
+  <input type="radio" id="LengthoftheRectangularPrismRadio" name="variables" disabled>
+  <label for="LengthoftheRectangularPrismRadio">Length of the Rectangular Prism</label>
+
+  <input type="radio" id="heightoftheRectangularPrismRadio" name="variables" disabled>
+  <label for="heightoftheRectangularPrismRadio">Height of the Rectangular Prism</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Width of the Rectangular Prism</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Length of the Rectangular Prism</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Height of the Rectangular Prism</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
